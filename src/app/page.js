@@ -1,3 +1,6 @@
+import React from 'react';
+import JokeGenerator from '../components/JokeGenerator';
+
 function Home() {
   return (
     <div
@@ -10,6 +13,7 @@ function Home() {
       }}
     >
       Welcome to Next JS!
+      <JokeGenerator />
     </div>
   );
 }

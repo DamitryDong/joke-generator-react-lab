@@ -1,4 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
